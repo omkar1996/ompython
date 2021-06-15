@@ -1,0 +1,18 @@
+#print the number of elements in list is
+a = []
+chem = input("Enter value")
+chem = int(chem)
+a.append(chem)
+b = input("Enter value")
+phy = int(b)
+a.append(phy)
+c = input("Enter value")
+eng = int(c)
+a.append(eng)
+total = sum(a)
+print ("toatal :",total)
+e = input("Enter value")
+maths = int(e)
+a.append(maths)
+print ("Toatal :",total)
+print ("length of string :",len(a))
